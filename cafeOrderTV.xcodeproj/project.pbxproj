@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AB2E5801DD112C6000874BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E57F1DD112C6000874BA /* AppDelegate.swift */; };
+		2AB2E5821DD112C6000874BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5811DD112C6000874BA /* ViewController.swift */; };
+		2AB2E5851DD112C6000874BA /* cafeOrderTV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5831DD112C6000874BA /* cafeOrderTV.xcdatamodeld */; };
+		2AB2E5881DD112C6000874BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2E5861DD112C6000874BA /* Main.storyboard */; };
+		2AB2E58A1DD112C6000874BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2E5891DD112C6000874BA /* Assets.xcassets */; };
+		2AB2E5951DD112C6000874BA /* cafeOrderTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5941DD112C6000874BA /* cafeOrderTVTests.swift */; };
+		2AB2E5A01DD112C6000874BA /* cafeOrderTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E59F1DD112C6000874BA /* cafeOrderTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AB2E5911DD112C6000874BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB2E5741DD112C5000874BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB2E57B1DD112C5000874BA;
+			remoteInfo = cafeOrderTV;
+		};
+		2AB2E59C1DD112C6000874BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AB2E5741DD112C5000874BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB2E57B1DD112C5000874BA;
+			remoteInfo = cafeOrderTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AB2E57C1DD112C6000874BA /* cafeOrderTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafeOrderTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB2E57F1DD112C6000874BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB2E5811DD112C6000874BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AB2E5841DD112C6000874BA /* cafeOrderTV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cafeOrderTV.xcdatamodel; sourceTree = "<group>"; };
+		2AB2E5871DD112C6000874BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB2E5891DD112C6000874BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB2E58B1DD112C6000874BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB2E5901DD112C6000874BA /* cafeOrderTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafeOrderTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB2E5941DD112C6000874BA /* cafeOrderTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeOrderTVTests.swift; sourceTree = "<group>"; };
+		2AB2E5961DD112C6000874BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB2E59B1DD112C6000874BA /* cafeOrderTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafeOrderTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB2E59F1DD112C6000874BA /* cafeOrderTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeOrderTVUITests.swift; sourceTree = "<group>"; };
+		2AB2E5A11DD112C6000874BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB2E5791DD112C5000874BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E58D1DD112C6000874BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E5981DD112C6000874BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB2E5731DD112C5000874BA = {
+			isa = PBXGroup;
+			children = (
+				2AB2E57E1DD112C6000874BA /* cafeOrderTV */,
+				2AB2E5931DD112C6000874BA /* cafeOrderTVTests */,
+				2AB2E59E1DD112C6000874BA /* cafeOrderTVUITests */,
+				2AB2E57D1DD112C6000874BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB2E57D1DD112C6000874BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB2E57C1DD112C6000874BA /* cafeOrderTV.app */,
+				2AB2E5901DD112C6000874BA /* cafeOrderTVTests.xctest */,
+				2AB2E59B1DD112C6000874BA /* cafeOrderTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB2E57E1DD112C6000874BA /* cafeOrderTV */ = {
+			isa = PBXGroup;
+			children = (
+				2AB2E57F1DD112C6000874BA /* AppDelegate.swift */,
+				2AB2E5811DD112C6000874BA /* ViewController.swift */,
+				2AB2E5861DD112C6000874BA /* Main.storyboard */,
+				2AB2E5891DD112C6000874BA /* Assets.xcassets */,
+				2AB2E58B1DD112C6000874BA /* Info.plist */,
+				2AB2E5831DD112C6000874BA /* cafeOrderTV.xcdatamodeld */,
+			);
+			path = cafeOrderTV;
+			sourceTree = "<group>";
+		};
+		2AB2E5931DD112C6000874BA /* cafeOrderTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB2E5941DD112C6000874BA /* cafeOrderTVTests.swift */,
+				2AB2E5961DD112C6000874BA /* Info.plist */,
+			);
+			path = cafeOrderTVTests;
+			sourceTree = "<group>";
+		};
+		2AB2E59E1DD112C6000874BA /* cafeOrderTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AB2E59F1DD112C6000874BA /* cafeOrderTVUITests.swift */,
+				2AB2E5A11DD112C6000874BA /* Info.plist */,
+			);
+			path = cafeOrderTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB2E57B1DD112C5000874BA /* cafeOrderTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB2E5A41DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTV" */;
+			buildPhases = (
+				2AB2E5781DD112C5000874BA /* Sources */,
+				2AB2E5791DD112C5000874BA /* Frameworks */,
+				2AB2E57A1DD112C5000874BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cafeOrderTV;
+			productName = cafeOrderTV;
+			productReference = 2AB2E57C1DD112C6000874BA /* cafeOrderTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AB2E58F1DD112C6000874BA /* cafeOrderTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB2E5A71DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTVTests" */;
+			buildPhases = (
+				2AB2E58C1DD112C6000874BA /* Sources */,
+				2AB2E58D1DD112C6000874BA /* Frameworks */,
+				2AB2E58E1DD112C6000874BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB2E5921DD112C6000874BA /* PBXTargetDependency */,
+			);
+			name = cafeOrderTVTests;
+			productName = cafeOrderTVTests;
+			productReference = 2AB2E5901DD112C6000874BA /* cafeOrderTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AB2E59A1DD112C6000874BA /* cafeOrderTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB2E5AA1DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTVUITests" */;
+			buildPhases = (
+				2AB2E5971DD112C6000874BA /* Sources */,
+				2AB2E5981DD112C6000874BA /* Frameworks */,
+				2AB2E5991DD112C6000874BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AB2E59D1DD112C6000874BA /* PBXTargetDependency */,
+			);
+			name = cafeOrderTVUITests;
+			productName = cafeOrderTVUITests;
+			productReference = 2AB2E59B1DD112C6000874BA /* cafeOrderTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB2E5741DD112C5000874BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Gary Barnett";
+				TargetAttributes = {
+					2AB2E57B1DD112C5000874BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2AB2E58F1DD112C6000874BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AB2E57B1DD112C5000874BA;
+					};
+					2AB2E59A1DD112C6000874BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AB2E57B1DD112C5000874BA;
+					};
+				};
+			};
+			buildConfigurationList = 2AB2E5771DD112C5000874BA /* Build configuration list for PBXProject "cafeOrderTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB2E5731DD112C5000874BA;
+			productRefGroup = 2AB2E57D1DD112C6000874BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB2E57B1DD112C5000874BA /* cafeOrderTV */,
+				2AB2E58F1DD112C6000874BA /* cafeOrderTVTests */,
+				2AB2E59A1DD112C6000874BA /* cafeOrderTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB2E57A1DD112C5000874BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB2E58A1DD112C6000874BA /* Assets.xcassets in Resources */,
+				2AB2E5881DD112C6000874BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E58E1DD112C6000874BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E5991DD112C6000874BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB2E5781DD112C5000874BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB2E5821DD112C6000874BA /* ViewController.swift in Sources */,
+				2AB2E5801DD112C6000874BA /* AppDelegate.swift in Sources */,
+				2AB2E5851DD112C6000874BA /* cafeOrderTV.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E58C1DD112C6000874BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB2E5951DD112C6000874BA /* cafeOrderTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB2E5971DD112C6000874BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB2E5A01DD112C6000874BA /* cafeOrderTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AB2E5921DD112C6000874BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB2E57B1DD112C5000874BA /* cafeOrderTV */;
+			targetProxy = 2AB2E5911DD112C6000874BA /* PBXContainerItemProxy */;
+		};
+		2AB2E59D1DD112C6000874BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AB2E57B1DD112C5000874BA /* cafeOrderTV */;
+			targetProxy = 2AB2E59C1DD112C6000874BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AB2E5861DD112C6000874BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB2E5871DD112C6000874BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB2E5A21DD112C6000874BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2AB2E5A31DD112C6000874BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB2E5A51DD112C6000874BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = cafeOrderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2AB2E5A61DD112C6000874BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = cafeOrderTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2AB2E5A81DD112C6000874BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cafeOrderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafeOrderTV.app/cafeOrderTV";
+			};
+			name = Debug;
+		};
+		2AB2E5A91DD112C6000874BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cafeOrderTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cafeOrderTV.app/cafeOrderTV";
+			};
+			name = Release;
+		};
+		2AB2E5AB1DD112C6000874BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cafeOrderTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cafeOrderTV;
+			};
+			name = Debug;
+		};
+		2AB2E5AC1DD112C6000874BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cafeOrderTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CafeInc.cafeOrderTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cafeOrderTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB2E5771DD112C5000874BA /* Build configuration list for PBXProject "cafeOrderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2E5A21DD112C6000874BA /* Debug */,
+				2AB2E5A31DD112C6000874BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB2E5A41DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2E5A51DD112C6000874BA /* Debug */,
+				2AB2E5A61DD112C6000874BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AB2E5A71DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2E5A81DD112C6000874BA /* Debug */,
+				2AB2E5A91DD112C6000874BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AB2E5AA1DD112C6000874BA /* Build configuration list for PBXNativeTarget "cafeOrderTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB2E5AB1DD112C6000874BA /* Debug */,
+				2AB2E5AC1DD112C6000874BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AB2E5831DD112C6000874BA /* cafeOrderTV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AB2E5841DD112C6000874BA /* cafeOrderTV.xcdatamodel */,
+			);
+			currentVersion = 2AB2E5841DD112C6000874BA /* cafeOrderTV.xcdatamodel */;
+			path = cafeOrderTV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AB2E5741DD112C5000874BA /* Project object */;
+}
