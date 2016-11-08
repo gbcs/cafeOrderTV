@@ -17,7 +17,6 @@
 		2AB2E5AE1DD11A93000874BA /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5AD1DD11A93000874BA /* Orders.swift */; };
 		2AB2E5F21DD12B25000874BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F11DD12B25000874BA /* Constants.swift */; };
 		2AB2E5F41DD12D6E000874BA /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F31DD12D6E000874BA /* OrderManager.swift */; };
-		2AB2E5F61DD146E5000874BA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		2AB2E5AD1DD11A93000874BA /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
 		2AB2E5F11DD12B25000874BA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2AB2E5F31DD12D6E000874BA /* OrderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
-		2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +112,6 @@
 				2AB2E5AD1DD11A93000874BA /* Orders.swift */,
 				2AB2E5F11DD12B25000874BA /* Constants.swift */,
 				2AB2E5F31DD12D6E000874BA /* OrderManager.swift */,
-				2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */,
 			);
 			path = cafeOrderTV;
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 				2AB2E5F21DD12B25000874BA /* Constants.swift in Sources */,
 				2AB2E5821DD112C6000874BA /* ViewController.swift in Sources */,
 				2AB2E5801DD112C6000874BA /* AppDelegate.swift in Sources */,
-				2AB2E5F61DD146E5000874BA /* CollectionViewController.swift in Sources */,
 				2AB2E5AE1DD11A93000874BA /* Orders.swift in Sources */,
 				2AB2E5851DD112C6000874BA /* cafeOrderTV.xcdatamodeld in Sources */,
 			);
