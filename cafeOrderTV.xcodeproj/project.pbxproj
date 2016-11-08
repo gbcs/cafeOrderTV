@@ -14,6 +14,10 @@
 		2AB2E58A1DD112C6000874BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2E5891DD112C6000874BA /* Assets.xcassets */; };
 		2AB2E5951DD112C6000874BA /* cafeOrderTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5941DD112C6000874BA /* cafeOrderTVTests.swift */; };
 		2AB2E5A01DD112C6000874BA /* cafeOrderTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E59F1DD112C6000874BA /* cafeOrderTVUITests.swift */; };
+		2AB2E5AE1DD11A93000874BA /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5AD1DD11A93000874BA /* Orders.swift */; };
+		2AB2E5F21DD12B25000874BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F11DD12B25000874BA /* Constants.swift */; };
+		2AB2E5F41DD12D6E000874BA /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F31DD12D6E000874BA /* OrderManager.swift */; };
+		2AB2E5F61DD146E5000874BA /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2AB2E59B1DD112C6000874BA /* cafeOrderTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cafeOrderTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB2E59F1DD112C6000874BA /* cafeOrderTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cafeOrderTVUITests.swift; sourceTree = "<group>"; };
 		2AB2E5A11DD112C6000874BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB2E5AD1DD11A93000874BA /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		2AB2E5F11DD12B25000874BA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2AB2E5F31DD12D6E000874BA /* OrderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderManager.swift; sourceTree = "<group>"; };
+		2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				2AB2E5891DD112C6000874BA /* Assets.xcassets */,
 				2AB2E58B1DD112C6000874BA /* Info.plist */,
 				2AB2E5831DD112C6000874BA /* cafeOrderTV.xcdatamodeld */,
+				2AB2E5AD1DD11A93000874BA /* Orders.swift */,
+				2AB2E5F11DD12B25000874BA /* Constants.swift */,
+				2AB2E5F31DD12D6E000874BA /* OrderManager.swift */,
+				2AB2E5F51DD146E5000874BA /* CollectionViewController.swift */,
 			);
 			path = cafeOrderTV;
 			sourceTree = "<group>";
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB2E5F41DD12D6E000874BA /* OrderManager.swift in Sources */,
+				2AB2E5F21DD12B25000874BA /* Constants.swift in Sources */,
 				2AB2E5821DD112C6000874BA /* ViewController.swift in Sources */,
 				2AB2E5801DD112C6000874BA /* AppDelegate.swift in Sources */,
+				2AB2E5F61DD146E5000874BA /* CollectionViewController.swift in Sources */,
+				2AB2E5AE1DD11A93000874BA /* Orders.swift in Sources */,
 				2AB2E5851DD112C6000874BA /* cafeOrderTV.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
