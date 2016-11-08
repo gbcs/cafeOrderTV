@@ -50,5 +50,9 @@ class OrderManager {
     var listOrders:Array<Order> {
         return self.orders.orders
     }
+    
+    func closeOrder (orderNumber:String) {
+        self.orders.closeOrder(idStr: orderNumber)
+    }
 }
 

@@ -15,6 +15,7 @@ class Constants: NSObject {
     static var orderRefreshTimerInterval = 10
     static var orderCollectionViewTagTime = 1;
     static var orderCollectionViewTagTableSeat = 2;
-    static var orderCollectionViewTagOrderText = 3;
+    static var orderCollectionViewTagOrderNumber = 3;
+    static var orderCollectionViewTagOrderItemList = 4;
     static var orderCollectionViewReuseIdentifier = "order-collection-view-cell"
 }
